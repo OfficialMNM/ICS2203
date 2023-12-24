@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTIFOLIO</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Hello, I am Methusella</h1>
+        <p>Aspiring software engineer and web developer</p>
+    </header>
+
+    <div class="profile-picture">
+        <img src="me.jpg" alt="Methusella Nyongesa">
+    </div>
+
+    <nav>
+        <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="education.html">Education</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <div class="form-wrap">
+            <h1 class="form-title">Contribution</Form></h1>
+            <h2>If you are willing to collaborate on any project kindly fill this form:</h2>
+            <form class="contribution-form">
+                <div class="contribution-form-content">
+                    <span class="input-fields">
+                        <label>Name</label>
+                        <input type="text" placeholder="Name" id="name" name="name">
+                    </span>
+                    <span class="input-fields" class="error">
+                        <label>Email</label>
+                        <input type="email" placeholder="name@example.com"
+                        id="email" name="email">
+                    </span>
+                    <span class="input-fields">
+                        <label>Phone</label>
+                        <input type="text" placeholder="+254714040307" id="phone" name="phone">
+                    </span>
+                    <span class="input-fields">
+                        <label>Gender:</label>
+                        <input type="radio" id="gender" name="gender" value="male">
+                        <label>Male</label>
+                        <input type="radio" id="gender" name="gender" value="female">
+                        <label>Female</label>
+                        <br>
+                    </span>
+                    
+                    <span>
+                        <label for="Description">Project Description:</label>
+                        <textarea name="Project Description" id="Project" cols="30" rows="5"></textarea>
+                    </span>
+                </div>
+                <div class="submit-btn">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
